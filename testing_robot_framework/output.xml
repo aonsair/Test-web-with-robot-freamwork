@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.1 on win32)" generated="20181126 11:01:32.159">
+<suite id="s1" name="Guest" source="C:\xampp\htdocs\kmutt-webpro-project-topumin\testing_robot_framework\guest.robot">
+<test id="s1-t1" name="Testing guest usecase">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.2</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:32.713" endtime="20181126 11:01:32.713"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20181126 11:01:32.714" level="INFO">Opening browser 'firefox' to base url 'http://localhost:8000'.</msg>
+<status status="PASS" starttime="20181126 11:01:32.714" endtime="20181126 11:01:42.654"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20181126 11:01:42.656" endtime="20181126 11:01:46.366"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:46.366" endtime="20181126 11:01:46.593"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.3</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:46.595" endtime="20181126 11:01:46.595"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${TRIP MENU}</arg>
+</arguments>
+<msg timestamp="20181126 11:01:46.596" level="INFO">Clicking link 'trip_menu'.</msg>
+<status status="PASS" starttime="20181126 11:01:46.596" endtime="20181126 11:01:47.795"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:47.796" endtime="20181126 11:01:48.128"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>viewMoreTrip</arg>
+</arguments>
+<msg timestamp="20181126 11:01:48.135" level="INFO">Clicking link 'viewMoreTrip'.</msg>
+<status status="PASS" starttime="20181126 11:01:48.133" endtime="20181126 11:01:50.635"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:50.635" endtime="20181126 11:01:50.636"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:50.636" endtime="20181126 11:01:51.183"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${CLICK TRIP LINK}</arg>
+</arguments>
+<msg timestamp="20181126 11:01:51.184" level="INFO">Clicking link 'trip-11'.</msg>
+<status status="PASS" starttime="20181126 11:01:51.184" endtime="20181126 11:01:53.916"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:53.918" endtime="20181126 11:01:54.438"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:54.439" endtime="20181126 11:01:54.440"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${DETAIL TRIP KEYWORD}</arg>
+</arguments>
+<msg timestamp="20181126 11:01:54.446" level="INFO">Clicking link 'detail'.</msg>
+<status status="PASS" starttime="20181126 11:01:54.442" endtime="20181126 11:01:57.840"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:01:57.840" endtime="20181126 11:01:57.840"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${REVIEW MENU}</arg>
+</arguments>
+<msg timestamp="20181126 11:01:57.844" level="INFO">Clicking link 'review_menu'.</msg>
+<status status="PASS" starttime="20181126 11:01:57.842" endtime="20181126 11:02:01.009"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:01.046" endtime="20181126 11:02:01.669"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${CLICK REVIEW LINK}</arg>
+</arguments>
+<msg timestamp="20181126 11:02:01.670" level="INFO">Clicking link 'review-17'.</msg>
+<status status="PASS" starttime="20181126 11:02:01.669" endtime="20181126 11:02:05.992"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:05.993" endtime="20181126 11:02:06.514"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:06.515" endtime="20181126 11:02:06.516"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${COMMENT KEYWORD}</arg>
+</arguments>
+<msg timestamp="20181126 11:02:06.518" level="INFO">Clicking link 'comment'.</msg>
+<status status="PASS" starttime="20181126 11:02:06.517" endtime="20181126 11:02:09.849"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:09.855" endtime="20181126 11:02:09.858"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:09.859" endtime="20181126 11:02:10.414"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>home_menu</arg>
+</arguments>
+<msg timestamp="20181126 11:02:10.415" level="INFO">Clicking link 'home_menu'.</msg>
+<status status="PASS" starttime="20181126 11:02:10.415" endtime="20181126 11:02:14.118"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until ``text`` appears on current page.</doc>
+<arguments>
+<arg>${OBSCURE KEYWORD}</arg>
+</arguments>
+<status status="PASS" starttime="20181126 11:02:14.124" endtime="20181126 11:02:14.692"></status>
+</kw>
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>${TRIP MENU}</arg>
+</arguments>
+<msg timestamp="20181126 11:02:14.695" level="INFO">Clicking link 'trip_menu'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181126 11:02:16.529" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181126 11:02:15.755" endtime="20181126 11:02:16.530"></status>
+</kw>
+<msg timestamp="20181126 11:02:16.737" level="FAIL">ElementClickInterceptedException: Message: Element &lt;a id="trip_menu" href="#trip"&gt; is not clickable at point (496.1666488647461,45) because another element &lt;div class="loader-mask"&gt; obscures it
+</msg>
+<status status="FAIL" starttime="20181126 11:02:14.693" endtime="20181126 11:02:16.737"></status>
+</kw>
+<status status="FAIL" starttime="20181126 11:01:32.712" endtime="20181126 11:02:16.738" critical="yes">ElementClickInterceptedException: Message: Element &lt;a id="trip_menu" href="#trip"&gt; is not clickable at point (496.1666488647461,45) because another element &lt;div class="loader-mask"&gt; obscures it
+</status>
+</test>
+<status status="FAIL" starttime="20181126 11:01:32.166" endtime="20181126 11:02:16.745"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Guest">Guest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
